@@ -3,7 +3,7 @@
 
 import json
 import logging
-import httplib
+import http.client
 
 from elasticsearch import Elasticsearch, VERSION as ELASTICSEARCH_VERSION
 
